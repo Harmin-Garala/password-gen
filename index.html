@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wdth,wght@105.9,100..700&family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="box">
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="dsiplay-contanier">
+            <input readonly placeholder="Password" class="display" data-passwordDisplay>
+            <button data-copy>
+                <span data-copymsg></span>
+                <img src="./assets/icons8-copy-30.png" alt="" height="23" width="23">
+            </button>
+        </div>
+    </div>
+
+    <div class="input-container">
+
+        <!-- Password length section -->
+        <div class="length-contanier">
+            <p>Password Length</p>
+            <p data-lengthnumber>0</p>
+        </div>
+        <!-- slider -->
+        <input type="range" min="1" max="20" class="slider" step="1" data-lengthslider>
+    </div>
+
+    <!-- checkbox -->
+    <div>
+        <input type="checkbox" id="uppercase">
+        <label for="uppercase">Includes uppercase letters</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="lowercasecase">
+        <label for="lowercase">Includes lowercase letters</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="number">
+        <label for="number">Includes number </label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="symbol">
+        <label for="symbol">Includes symbol </label>
+    </div>
+
+    <!-- strength section -->
+     <div class="strength-container">
+        <p>STRENGTH</p>
+        <div data-indicator></div>
+     </div>
+
+  
+        <button class="GenerateButton">Generate Password</button>
+
+    </div>
+    
+    <script src="./js.js"></script>
+</body>
+
+</html>

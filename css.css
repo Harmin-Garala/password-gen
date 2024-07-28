@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.box {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.dsiplay-contanier {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.display {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[data-copy] {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button[data-copy] img {
+    margin-left: 5px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.length-contanier {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 223px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.length-contanier p {
+    margin: 0;
+}
+
+.slider {
+    width: 100%;
+    margin: 10px 0;
+}
+
+div > input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.strength-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.strength-container p {
+    margin: 0;
+}
+
+div[data-indicator] {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+button.GenerateButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.GenerateButton:hover {
+    background-color: #218838;
+}
+#uppercase{
+    height: 13px;
+    width: 13px;
+}
+#lowercasecase{
+    height: 13px;
+    width: 13px;
+}
+#number{
+    height: 13px;
+    width: 13px;
+}
+#symbol{
+    height: 13px;
+    width: 13px;
+}
